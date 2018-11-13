@@ -7,7 +7,7 @@
 После успешной импорта, откроем файл:
 HelloWorld\src\main\java\kz\shuh\Service\MyDb.java
 	
-Делаем вот это. Изменим в функции connection:
+Делаем вот это. Измените название таблицу(я создал простую таблицу с названием welcometext(id,text)) в внутри функции connection:
 	    String dbName="your_db_name";
             //port to connection mysql
             String port="3306";//default port to MySql
