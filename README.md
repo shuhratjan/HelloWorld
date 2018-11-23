@@ -1,10 +1,10 @@
 Чтобы скачать из Github проекта запускаем команду:<br>
-	git clone https://github.com/shuhratjan/HelloWorld.git
-Заходим в папку:
-	HelloWorld
-Запускаем проект командой mvn jetty:run
-
-Ждём когда запуститься сервер. 
-После запуска сервера заходим в браузере по адресу:
-	http://locahost:8080/
-И видим результат.
+	git clone https://github.com/shuhratjan/HelloWorld.git<br>
+Заходим в папку:<br>
+	HelloWorld<br>
+Запускаем проект командой mvn jetty:run<br>
+<br>
+Ждём когда запуститься сервер. <br>
+После запуска сервера заходим в браузере по адресу:<br>
+	http://locahost:8080/<br>
+И видим результат.<br>
