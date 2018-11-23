@@ -2,17 +2,9 @@
 	git clone https://github.com/shuhratjan/HelloWorld.git
 Заходим в папку:
 	HelloWorld
-Через Intellij IDEA импортируем проекта
+Запускаем проект командой mvn jetty:run
 
-После успешной импорта, откроем файл:
-HelloWorld\src\main\java\kz\shuh\Service\MyDb.java
-	
-Делаем вот это. Измените название таблицу(я создал простую таблицу с названием welcometext(id,text)) в внутри функции connection:
-	    String dbName="your_db_name";
-            //port to connection mysql
-            String port="3306";//default port to MySql
-
-После этого, настроем tomcat И артифакт, и всё запустим проект.
-Ждём когда запуститься сервер. После запуска сервера заходим в браузере по адресу:
+Ждём когда запуститься сервер. 
+После запуска сервера заходим в браузере по адресу:
 	http://locahost:8080/
 И видим результат.
