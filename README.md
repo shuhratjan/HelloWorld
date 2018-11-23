@@ -1,4 +1,4 @@
-Чтобы скачать из Github проекта запускаем команду:
+Чтобы скачать из Github проекта запускаем команду:<br>
 	git clone https://github.com/shuhratjan/HelloWorld.git
 Заходим в папку:
 	HelloWorld
