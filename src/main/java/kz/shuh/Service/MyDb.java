@@ -24,23 +24,6 @@ public class MyDb {
         }
 
     }
-    /* It was for derby connection
-    public void connecToDerby() throws SQLException{
-
-        String dbUrl = "jdbc:derby:D:\\Projects\\JavaWebApplication\\FirstMavenProject; create=true";
-        conn = DriverManager.getConnection(dbUrl);
-
-    }
-
-
-    public void initDb() throws SQLException {
-        Statement statement = conn.createStatement();
-        statement.executeUpdate("Create table welcometext(id int primary key, text varchar(100))");
-
-        statement.executeUpdate("INSERT into welcometext values (1, 'Hello Java World')");
-        statement.close();
-    }
-    */
 
     public String getWelcomeText() throws SQLException{
         String welcomText=null;
